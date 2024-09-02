@@ -143,13 +143,6 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://physics-morris.github.io/" target="_blank">★</a>
 <a href="https://sraf.ir" target="_blank">★</a>
 <a href="https://acad.garywei.dev/" target="_blank">★</a>
-<a href="https://tonideleo.github.io/" target="_blank">★</a>
-<a href="https://alonkellner.com/" target="_blank">★</a>
-<a href="https://berylbir.github.io/" target="_blank">★</a>
-<a href="https://thefermi0n.github.io/" target="_blank">★</a>
-<a href="https://mingsun-kaust.github.io/" target="_blank">★</a>
-<a href="https://hdocmsu.github.io/" target="_blank">★</a>
-<a href="https://trandangtrungduc.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -189,8 +182,7 @@ Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.gith
 Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_blank"> 2022</a>) <br>
 Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.github.io/" target="_blank"> 2023</a>)<br>
 Beyond Vision: Physics meets AI (ICIAP: <a href="https://physicsmeetsai.github.io/beyond-vision/" target="_blank">2023</a>) <br>
-Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github.io/" target="_blank">2023</a>) <br>
-Workshop on Structured Probabilistic Inference & Generative Modeling (ICML: <a href="https://spigmworkshop.github.io/" target="_blank">2023</a>, <a href="https://spigmworkshop2024.github.io/" target="_blank">2024</a>)
+Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github.io/" target="_blank">2023</a>)
 </td>
 </tr>
 </table>
@@ -355,24 +347,34 @@ You may also use the following codes for displaying this in any other pages.
 ```html
 <!-- code for GitHub users -->
 {% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %} {% include repository/repo_user.liquid username=user %} {% endfor %}
+<div
+  class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center"
+>
+  {% for user in site.data.repositories.github_users %} {% include
+  repository/repo_user.liquid username=user %} {% endfor %}
 </div>
 {% endif %}
 
 <!-- code for GitHub trophies -->
-{% if site.repo_trophies.enabled %} {% for user in site.data.repositories.github_users %} {% if site.data.repositories.github_users.size > 1 %}
+{% if site.repo_trophies.enabled %} {% for user in
+site.data.repositories.github_users %} {% if
+site.data.repositories.github_users.size > 1 %}
 <h4>{{ user }}</h4>
 {% endif %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<div
+  class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center"
+>
   {% include repository/repo_trophies.liquid username=user %}
 </div>
 {% endfor %} {% endif %}
 
 <!-- code for GitHub repositories -->
 {% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %} {% include repository/repo.liquid repository=repo %} {% endfor %}
+<div
+  class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center"
+>
+  {% for repo in site.data.repositories.github_repos %} {% include
+  repository/repo.liquid repository=repo %} {% endfor %}
 </div>
 {% endif %}
 ```

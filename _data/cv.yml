@@ -1,97 +1,92 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: PhD in Educational Evaluation and Research (Fellowship)
+      institution: Johns Hopkins University
+      year: 2021 - Present
+    - title: MA in Teaching English to Speakers of Other Languages (Distinction)
+      institution: The University of Hong Kong
+      year: 2018 - 2019
+    - title: BA in English Language and Literature (Ranked 1st out of 74)
+      institution: Shantou University
+      year: 2014 - 2018
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: R Programming Analyst
+      company: Johns Hopkins University
+      year: 2022 - Present
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research Assistant
+      company: The Education University of Hong Kong, Department of Education Policy
+      year: 2019 - 2021
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024 - 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - <a href="https://openai.com/form/researcher-access-program/">OpenAI Researcher Access Program</a>
+    - year: 2022 - 2023
       items:
-        - Max Planck Medal
+        - The American Educational Research Association Division H Graduate Student <b>Research Grant</b>
+    - year: 2021 - 2025
+      items:
+        - Johns Hopkins University School of Education <b>Research Fellowship</b>
 
-- title: Academic Interests
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Adjunct Faculty
+      year: Spring 2024
+      course: ED.881.622.06.SP24 Advanced Instructional Strategies
+    - title: Graduate Teaching Assistant
+      year: Spring 2024
+      course: ED.883.721.1C.SP24 Evaluation of Education Policies and Programs (EdD)
+    - title: Graduate Teaching Assistant
+      year: Spring 2024
+      course: ED.883.812.1D.SP24 Data Workflow (PhD)
+    - title: Graduate Teaching Assistant
+      year: Fall 2023
+      course: ED.820.604.91.FA23 Diversity (MS)
+    - title: Teacher Mentor
+      year: Fall 2022 - Spring 2024
+      course: Extened Learning for MS in Education - International Teaching & Global Leadership Cohort
+
+- title: Professional Services
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Co-chair
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - American Educational Research Association 2024 Annual Meeting Division H Exhibit Booth Committee
+    - title: Reviewer
       items:
-        - Description 1.
-        - Description 2.
+        - <b>Conference(Paper):</b> AERA 2025 (6), AERA 2024 (1), AERA 2023 (6)
+        - <b>Journal(Paper):</b> The Asia-Pacific Education Researcher (2), Language Teaching Research (1)
 
-- title: Other Interests
-  type: list
+- title: Media
+  type: map
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: The 74
+      value: Wang, X., & Gehlbach, H. (August 2024). AI-created quizzes can save teachers time while boosting student achievement. The 74. <a href="https://www.the74million.org/article/ai-created-quizzes-can-save-teachers-time-while-boosting-student-achievement/">Link</a>
+    - name: EFL Magazine
+      value: Wang, X., & Fang, F. (December 2018). Awakening to Global Englishes. EFL Magazine (December 2018). <a href="https://eflmagazine.com/awakening-to-global-englishes/">Link</a>
+    - name: Best Evidence in Brief
+      value: Contributer for the bi-monthly e-newsletter produced by the Center for Research and Reform in Education at Johns Hopkins University. <a href="https://beibindex.wordpress.com/">Link</a>
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Research Methods
+      items:
+        - Meta-analysis, Hierarchical Linear Modeling, Causal Inference, Factor Analysis, Structural Equation Modeling
+    - title: Technical
+      items:
+        - "Programming Language: R"
+        - "Tools: Stata, Mplus"
+
+- title: Software
+  type: nested_list
+  contents:
+    - title: <a href="https://metamate.online/">MetaMate</a>
