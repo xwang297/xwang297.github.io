@@ -21,3 +21,11 @@
 "davis":
   - firstname: ["Marcia H."]
     url: https://education.jhu.edu/directory/marcia-davis-phd
+
+"smith":
+  - firstname: ["Genevieve"]
+    url: https://www.linkedin.com/in/gennysmith/
+
+"watson":
+  - firstname: ["Angela"]
+    url: https://education.jhu.edu/directory/angela-r-watson-phd/

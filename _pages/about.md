@@ -10,7 +10,7 @@ subtitle: |+
 
 
 profile:
-  image: profile_photo/campus.jpeg
+  image: profile_photo/oct25.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
