@@ -25,6 +25,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - The American Educational Research Association Division H Outstanding Publication Competition (Outstanding Dissertation category)
+    - year: 2026
+      items:
+        - Johns Hopkins University School of Education Excellence Award in the PhD Program
     - year: 2024 - 2025
       items:
         - <a href="https://openai.com/form/researcher-access-program/">OpenAI Researcher Access Program</a>
@@ -59,11 +65,14 @@
   contents:
     - title: Co-chair
       items:
-        - American Educational Research Association 2024 Annual Meeting Division H Exhibit Booth Committee
+        - American Educational Research Association Annual Meeting Division H Exhibit Booth Committee, 2024-2026
+    - title: Graduate Student Representative-at-Large
+      items:
+        - American Educational Research Association Systematic Review and Meta-analysis Special Interest Group, 2025-2026
     - title: Reviewer
       items:
-        - <b>Conference(Paper):</b> AERA 2025 (6), AERA 2024 (1), AERA 2023 (6)
-        - <b>Journal(Paper):</b> The Asia-Pacific Education Researcher (2), Language Teaching Research (1)
+        - <b>Conferences:</b> AERA 2025, SREE 2025, AERA 2024, AERA 2023
+        - <b>Journals:</b> Metacognition and Learning, Review of Education, Research Synthesis Methods, International Journal of Educational Research, The Asia-Pacific Education Researcher, Journal of Psychoeducational Assessment, Journal of School Choice, Language Teaching Research
 
 - title: Media
   type: map

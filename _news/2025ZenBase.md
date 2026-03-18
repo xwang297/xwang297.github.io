@@ -5,4 +5,4 @@ inline: True
 related_posts: false
 ---
 
-Thanks to [Zenbase AI](https://www.thesynthesis.company/) for supporting server hosting for [MetaMate](https://metamate.online/)!
+Thanks to [The Synthesis Company](https://www.thesynthesis.company/) for supporting server hosting for [MetaMate](https://metamate.online/)!
