@@ -3,7 +3,7 @@
   contents:
     - title: PhD in Educational Evaluation and Research (Fellowship)
       institution: Johns Hopkins University
-      year: 2021 - Present
+      year: 2021 - 2026
     - title: MA in Teaching English to Speakers of Other Languages (Distinction)
       institution: The University of Hong Kong
       year: 2018 - 2019
@@ -14,9 +14,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Program Analyst
+      company: Center for Research and Reform in Education, Johns Hopkins University
+      year: 2026 - Present
+
     - title: R Programming Analyst
       company: Johns Hopkins University
-      year: 2022 - Present
+      year: 2022 - 2026
 
     - title: Research Assistant
       company: The Education University of Hong Kong, Department of Education Policy
@@ -27,10 +31,10 @@
   contents:
     - year: 2026
       items:
-        - The American Educational Research Association Division H Outstanding Publication Competition (Outstanding Dissertation category)
+        - The American Educational Research Association Division H Outstanding Publication Competition (<b>Outstanding Dissertation</b> category)
     - year: 2026
       items:
-        - Johns Hopkins University School of Education Excellence Award in the PhD Program
+        - Johns Hopkins University School of Education <b>Excellence Award</b> in the PhD Program
     - year: 2024 - 2025
       items:
         - <a href="https://openai.com/form/researcher-access-program/">OpenAI Researcher Access Program</a>
